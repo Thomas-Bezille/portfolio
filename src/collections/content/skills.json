@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Symfony",
+    "ref": "symfony"
+  },
+  {
+    "name": "Laravel",
+    "ref": "laravel"
+  },
+  {
+    "name": "Wordpress",
+    "ref": "wordpress"
+  },
+  {
+    "name": "React",
+    "ref": "react"
+  },
+  {
+    "name": "Axios",
+    "ref": "axios"
+  },
+  {
+    "name": "Redux",
+    "ref": "redux"
+  },
+  {
+    "name": "My SQL",
+    "ref": "mysql"
+  },
+  {
+    "name": "Sass",
+    "ref": "sass"
+  },
+  {
+    "name": "Tailwind CSS",
+    "ref": "tailwindcss"
+  },
+  {
+    "name": "Bootstrap",
+    "ref": "bootstrap"
+  }
+]
