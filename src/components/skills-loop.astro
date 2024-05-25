@@ -1,13 +1,9 @@
 ---
 import skills from "../collections/content/skills.json";
-
-const { count } = Astro.props;
-
-const skillsLoop = skills
 ---
 
 {
-  skillsLoop.map((skill) => {
+  skills.map((skill) => {
     return (
       <div
         class="relative border border-transparent border-dashed p-7 group rounded-2xl"
