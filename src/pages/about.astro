@@ -5,26 +5,32 @@ import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="About Me">
+<Layout title="À propos | Thomas Bezille">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
-      title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Nanjing, China. I'm passionate about building new products and learning new technology."
+      title="À propos de moi"
+      description="Bonjour 👋 moi c'est Thomas et je suis un développeur Nantais. Je suis passionné par la création de nouveaux projets et l'apprentissage de nouvelles technologies."
     />
 
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+    <img src="/assets/images/about.jpg" class="about relative text-center z-30 size-72 my-10 rounded-xl" />
 
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
+      🚀 Développeur web en formation situé à Nantes, France.<br/>
+      📚 Actuellement en cours de formation chez O'clock pour perfectionner mes compétences en développement web.<br/>
+      💻 Passionné par les nouvelles technologies, l'informatique et le développement de sites web.<br/>
+      🛠️ Technologies que j'explore actuellement : Laravel, Symphony, React, Java et bien d'autres à venir !.<br/>
+      🌐 Mon objectif : Contribuer au monde du développement web en apprenant continuellement et en collaborant sur des projets inspirants.<br/>
+      📫 N'hésitez pas à me contacter pour discuter de projets passionnants ou simplement pour échanger sur le monde du développement !<br/>
+      ⚡ "Le seul moyen de faire du bon travail est d'aimer ce que vous faites." - Steve Jobs
     </p>
 
     <h2
       class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200"
     >
-      Experience
+      Expérience
     </h2>
     <div class="px-5 py-10">
       {
@@ -56,17 +62,17 @@ import Layout from "../layouts/main.astro";
       }
     </div>
 
-    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
+    <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Me contacter</h2>
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      If you want to stay up to date with my work be sure to <a
-        href="https://twitter.com/ccikai"
+      Pour me contacter rien de plus simple, vous pouvez <a
+        href="https://www.linkedin.com/in/thomas-bezille/"
         target="_blank"
-        class="text-indigo-600 underline">follow me on twitter</a
-      >, or you can send me an <a href="mailto:astro-aria#miantiao.me" class="text-indigo-600 underline"
+        class="text-indigo-600 underline">m'envoyer un message sur Linkedin</a
+      >, ou m'envoyer un <a href="mailto:thomas.bezille.pro@gmail.com" class="text-indigo-600 underline"
         >email</a
-      > and I'll be sure to get back to you.
+      > et je reviendrais vers vous très rapidement.
     </p>
   </section>
 </Layout>
