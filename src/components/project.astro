@@ -62,8 +62,7 @@ const { name, description, url, image, technologies } = Astro.props;
       >
     </span>
     <span class="flex items-end">
-      {technologies.map((technology) => (
-        
+      {technologies.map((technology: any) => (
           <img src={`/assets/images/skills/${technology}.svg`} alt={technology} class="h-9 mr-2 mt-2 p-1.5 rounded-full bg-[rgba(180,180,180,0.2)]">
       ))}
     </span>
