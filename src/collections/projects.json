@@ -1,20 +1,16 @@
 [
-	{
-		"name": "Email.ML",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/email.ml.png",
-		"url": "https://email.ml"
-	},
-	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
-	},
-	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
-	}
+  {
+    "name": "O'recipies",
+    "description": "Projet d'étude : Réaliser un site de recette de cuisine.",
+    "image": "/assets/images/projects/orecipies.png",
+    "url": "https://github.com/O-clock-Fajitas/Spe-React-E16-oRecipes-Thomas-Bezille",
+    "technologies": ["react", "redux", "axios"]
+  },
+  {
+    "name": "O'flix",
+    "description": "Projet d'étude : Réaliser un clone de Netflix.",
+    "image": "/assets/images/projects/oflix.png",
+    "url": "https://github.com/O-clock-Fajitas/oflix-Thomas-Bezille",
+    "technologies": ["symfony", "mysql"]
+  }
 ]
