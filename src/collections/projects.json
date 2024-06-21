@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "O'recipies",
     "description": "Projet d'étude : Réaliser un site de recette de cuisine.",
     "image": "/assets/images/projects/orecipies.png",
@@ -7,10 +8,19 @@
     "technologies": ["react", "redux", "axios"]
   },
   {
+    "id": 2,
     "name": "O'flix",
     "description": "Projet d'étude : Réaliser un clone de Netflix.",
     "image": "/assets/images/projects/oflix.png",
     "url": "https://github.com/O-clock-Fajitas/oflix-Thomas-Bezille",
     "technologies": ["symfony", "mysql"]
+  },
+  {
+    "id": 3,
+    "name": "Agencia",
+    "description": "Projet d'étude [# EN COURS #] : Réaliser un site pour une agence immobilière.",
+    "image": "/assets/images/projects/agencia.png",
+    "url": "https://github.com/Thomas-Bezille/agencia",
+    "technologies": ["wordpress", "php"]
   }
 ]
