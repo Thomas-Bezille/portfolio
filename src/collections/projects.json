@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "Boost Ton Level",
+    "description": "Projet de fin d'étude : Réaliser une API + un back office pour une application de création et de partage de fiche de révision.",
+    "image": "/assets/images/projects/boosttonlevel.png",
+    "url": "#",
+    "technologies": ["symfony", "react", "redux", "axios", "sass", "javascript"]
+  },
+  {
+    "id": 2,
     "name": "O'recipies",
     "description": "Projet d'étude : Réaliser un site de recette de cuisine.",
     "image": "/assets/images/projects/orecipies.png",
@@ -8,7 +16,7 @@
     "technologies": ["react", "redux", "axios"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "O'flix",
     "description": "Projet d'étude : Réaliser un clone de Netflix.",
     "image": "/assets/images/projects/oflix.png",
@@ -16,7 +24,7 @@
     "technologies": ["symfony", "mysql"]
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Agencia",
     "description": "Projet d'étude [# EN COURS #] : Réaliser un site pour une agence immobilière.",
     "image": "/assets/images/projects/agencia.png",
