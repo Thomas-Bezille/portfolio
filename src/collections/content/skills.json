@@ -4,6 +4,10 @@
     "ref": "symfony"
   },
   {
+    "name": "Java",
+    "ref": "java"
+  },
+  {
     "name": "Laravel",
     "ref": "laravel"
   },
